@@ -1,0 +1,34 @@
+.container{
+    width: 100wh;
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.items{
+    width: 30%;
+    height: 75%;
+    background-color: #bdb9b9;
+    border: 2px solid #eee;
+    margin: 3%;
+    padding: 2%;
+    flex-direction: column;
+}
+
+.items button{
+    margin: 10px 5px 5px 5px;
+    width: 20px;
+}
+.items button:disabled{
+    background-color: rgb(129, 129, 119);
+    color: black;
+}
+
+.item{
+    background-color: rgb(63, 61, 62);
+    width: 95%;
+    padding: 5px;
+    margin-bottom: 15px;
+    color: white;
+    border-radius: 5px;
+}
